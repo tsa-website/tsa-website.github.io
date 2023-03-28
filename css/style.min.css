@@ -30,11 +30,11 @@ body {
   background: #fff;
   font-size: 25px;
   line-height: 1.8;
-  color: rgba(0, 12, 241, 0.5);
+  color: rgb(2 215 255);
   /* text-shadow: 0 0 10px #0015ff; */
   margin: 1.414em 0 0.5em;
   line-height: 1.2;
-  color: rgb(41, 41, 183);
+  color: rgb(2 215 255);
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -76,6 +76,7 @@ ol,
 p,
 ul {
   margin-bottom: 1.3em;
+  text-align: left;
 }
 a {
   -webkit-transition: 0.3s all;
@@ -99,7 +100,7 @@ a.hover-reverse:hover {
 .probootstrap-header {
   padding-top: 30px;
   padding-bottom: 30px;
-  width: 100%;
+  width: 112%;
   z-index: 12;
   position: absolute;
   top: 0;
@@ -223,12 +224,12 @@ a.hover-reverse:hover {
 .probootstrap-main-nav li a {
   font-weight: 400;
   padding: 10px 0;
-  color: rgb(11 45 232 / 70%);
-  font-size: 16px;
+  color: rgb(2 215 255);
+  font-size: 20px;
   text-decoration: none;
 }
 .probootstrap-main-nav li a:hover {
-  color: #000;
+  color: rgb(215, 19, 19);
 }
 .probootstrap-mobile-menu-active.show .probootstrap-main-nav li a {
   color: #fff;
@@ -240,7 +241,7 @@ a.hover-reverse:hover {
   border-bottom: none !important;
 }
 .probootstrap-mobile-menu-active .probootstrap-main-nav li a:hover {
-  color: #222;
+  color: rgb(94, 223, 8);
 }
 .probootstrap-main-nav li.probootstrap-cta {
   margin-left: 20px;
@@ -267,7 +268,7 @@ a.hover-reverse:hover {
   color: #22eaaa;
 }
 .probootstrap-main-nav li.active a:hover {
-  color: #000;
+  color: rgb(20, 142, 24);
 }
 .probootstrap-mobile-menu-active .probootstrap-main-nav li.active a {
   color: #22eaaa;
@@ -326,7 +327,7 @@ a.hover-reverse:hover {
   display: inline-block;
   width: 18px;
   height: 2px;
-  color: #000;
+  color: rgb(2 215 255);
   font: 700 14px/0.4 Helvetica, arial;
   text-transform: uppercase;
   text-indent: -55px;
@@ -375,7 +376,7 @@ a.hover-reverse:hover {
   transform: rotateZ(-45deg);
 }
 .probootstrap-mobile-menu-active.show .probootstrap-burger-menu i {
-  color: #fff;
+  color: rgb(2 215 255);
   background: #000;
 }
 .probootstrap-mobile-menu-active.show .probootstrap-burger-menu i::after,
@@ -522,6 +523,7 @@ a.hover-reverse:hover {
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  background: #000;
 }
 .probootstrap-section-half:last-child .probootstrap-text {
   border-bottom: none;
@@ -535,8 +537,8 @@ a.hover-reverse:hover {
 }
 .probootstrap-section-half .probootstrap-image {
   background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
+  height: 725px;
 }
 @media screen and (max-width: 768px) {
   .probootstrap-section-half .probootstrap-image,
@@ -554,7 +556,6 @@ a.hover-reverse:hover {
   border-bottom: 1px solid #f2f2f2;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
 }
 .probootstrap-section-half .probootstrap-text > .probootstrap-inner {
   -ms-flex-item-align: center;
@@ -610,6 +611,7 @@ a.hover-reverse:hover {
 .probootstrap-animate {
   opacity: 0;
   visibility: hidden;
+  background-color: #000;
 }
 .probootstrap-form.probootstrap-form-box {
   background: #fff;
@@ -799,7 +801,8 @@ a.hover-reverse:hover {
 }
 .mb70 {
   margin-bottom: 70px !important;
-  color: rgb(41, 41, 183);
+  color: rgb(255, 0, 0);
+  font-family: Impact;
 }
 .mb80 {
   margin-bottom: 80px !important;
@@ -918,8 +921,57 @@ a.hover-reverse:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 .heading {
-  color: rgb(41, 41, 183);
+  color: rgb(255, 2, 2);
+  font-size: 30px;
+  font-family: Impact;
 }
 .href {
-  font-size: 25px;
+  font-size: 30px;
+}
+.heady {
+  font-family: Impact;
+  color: red;
+}
+.heady1 {
+  font-family: Impact;
+  color: red;
+}
+.headingCH1 {
+  font-family: Impact;
+  color: red;
+}
+/* }
+.headingCH2 {
+  background-color: red;
+  width: 180px;
+  font-size: 50px;
+}
+.headingCH3 {
+  background-color: red;
+  width: 120px;
+  font-size: 50px;
+}
+.headingCH4 {
+  background-color: red;
+  width: 210px;
+  font-size: 50px;
+} */
+.MQ {
+  width: 500px;
+  padding-bottom: 40px;
+}
+.nameCol {
+  color: red;
+  font-family: monospace;
+  text-align: center;
+  font-size: 35px;
+}
+.btn {
+  background: transparent;
+  border: 1px solid rgb(2 215 255);
+  color: rgb(2 215 255);
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
 }
